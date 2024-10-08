@@ -10,10 +10,10 @@ function App() {
         <div className=" h-dvh gap-16 flex justify-center items-center font-slim text-4xl">
           <img src={Cake1} className=" h-4/5" alt="Cake1" />
             <div className=" flex flex-col gap-10 justify-center items-center px-10 h-full">
-              <div className="font-script text-6xl">
+              <div className="font-script text-6xl flex justify-center items-center">
                 Customizable Cakes
               </div>
-              <div className="font-script">
+              <div className="font-script flex text-center justify-center items-center">
                 Founded in 2003 by Emily Boudreaux.
               </div>
               <div className=" font-script text-3xl flex flex-col justify-center items-center">
