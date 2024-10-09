@@ -2,10 +2,14 @@ import NavBar from "./components/NavBar"
 import Cake1 from '../public/cake1.jpg'
 import Cake2 from '../public/cake2.jpg'
 import Cake3 from '../public/cake3.jpg'
+import Login from "./components/Login"
+import SingUp from "./components/SignUp"
 function App() {
   return (
     <>
       <NavBar />
+      <Login />
+      <SingUp />
       <div>
         <div className=" h-dvh gap-16 flex justify-center items-center font-slim text-4xl">
           <img src={Cake1} className=" h-4/5" alt="Cake1" />
